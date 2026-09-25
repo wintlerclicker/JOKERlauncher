@@ -1,0 +1,42 @@
+{
+  "launcher": {
+    "version": "1.0.5",
+    "features": [
+      {
+        "name": "Тёмная тема",
+        "description": "Интерфейс теперь можно переключить в тёмный режим",
+        "is_new": true
+      },
+      {
+        "name": "Автовход",
+        "description": "Лаунчер запоминает аккаунт",
+        "is_new": false
+      },
+      {
+        "name": "Скачивание модов",
+        "description": "Прямо из лаунчера без браузера",
+        "is_new": true
+      }
+    ]
+  },
+  "servers": [
+    {
+      "name": "Survival",
+      "ip": "play.example.com:25565",
+      "info": "Классическое выживание с друзьями",
+      "is_new": true
+    },
+    {
+      "name": "Anarchy",
+      "ip": "anarchy.example.com:25565",
+      "info": "Без правил и привата",
+      "is_new": true
+    },
+    {
+      "name": "SkyBlock",
+      "ip": "sky.example.com:25565",
+      "info": "Выживание на острове в небе",
+      "is_new": false
+    }
+  ]
+}
