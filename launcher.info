@@ -21,21 +21,45 @@
   },
   "servers": [
     {
+      "id": "survival-example",
       "name": "Survival",
-      "ip": "play.example.com:25565",
-      "info": "Классическое выживание с друзьями",
+      "ip": "play.example.com",
+      "port": 25565,
+      "description": "Классическое выживание с друзьями",
+      "icon": "https://mc-heads.net/avatar/MHF_Exclamation/64",
+      "banner": "https://i.imgur.com/6XpZcXH.png",
+      "tags": ["survival", "vanilla", "1.21"],
+      "color": "#00d9ff",
+      "tier": "premium",
+      "since": "2024-01-15",
       "is_new": true
     },
     {
+      "id": "anarchy-example",
       "name": "Anarchy",
-      "ip": "anarchy.example.com:25565",
-      "info": "Без правил и привата",
+      "ip": "anarchy.example.com",
+      "port": 25565,
+      "description": "Без правил и привата",
+      "icon": "https://mc-heads.net/avatar/MHF_Question/64",
+      "banner": "https://i.imgur.com/L9kMnOp.png",
+      "tags": ["anarchy", "pvp"],
+      "color": "#ff3355",
+      "tier": "premium",
+      "since": "2024-02-20",
       "is_new": true
     },
     {
+      "id": "skyblock-example",
       "name": "SkyBlock",
-      "ip": "sky.example.com:25565",
-      "info": "Выживание на острове в небе",
+      "ip": "sky.example.com",
+      "port": 25565,
+      "description": "Выживание на острове в небе",
+      "icon": "",
+      "banner": "",
+      "tags": ["skyblock", "economy"],
+      "color": "",
+      "tier": "free",
+      "since": "2024-03-10",
       "is_new": false
     }
   ]
